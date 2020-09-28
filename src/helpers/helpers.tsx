@@ -1,4 +1,3 @@
-import React from 'react'
 import firebase from "firebase"
 
 var firebaseConfig = {
@@ -17,7 +16,6 @@ const helpers = {
     async exportDatas(datas:any){
         let new_doc = db.collection("Avis").doc()
         await new_doc.set(datas)
-        console.log("doc uplaoded")
     }
 }
 

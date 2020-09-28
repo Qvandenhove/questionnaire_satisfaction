@@ -1,5 +1,5 @@
 import { IonItem, IonLabel, IonRadioGroup, IonRadio, IonTextarea } from '@ionic/react'
-import React, { Fragment, useState } from 'react'
+import React, { Fragment } from 'react'
 
 interface demandeNoteProps {
     nom:string

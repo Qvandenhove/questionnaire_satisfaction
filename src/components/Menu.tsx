@@ -1,4 +1,4 @@
-import { IonContent, IonIcon, IonItem, IonList, IonMenu, IonMenuButton, IonRouterOutlet } from '@ionic/react';
+import { IonContent, IonIcon, IonItem, IonList, IonMenu } from '@ionic/react';
 import {home, happy, statsChart} from 'ionicons/icons'
 import React, { Fragment } from 'react';
 import './Menu.css';

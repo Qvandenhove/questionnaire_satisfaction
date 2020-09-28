@@ -39,7 +39,11 @@ ion-input{
 ion-modal ion-button{
     width: 60px;
     height: 60px;
-    margin: 0 0 0 90%;
+}
+
+ion-modal.errors ion-item{
+    display: flex;
+    justify-content: space-between;
 }
 
 ion-icon.closeModal{
@@ -61,4 +65,24 @@ ion-label.reponse{
 
 ion-label.commentaire{
     font-size: 1.2rem!important;
+}
+
+ion-modal.errors{
+    --background: #428cff;
+}
+
+ion-modal.errors div.modal-wrapper{
+    position: relative;
+    top: 45%;
+    height: 50px;
+    width: 80%;
+}
+
+ion-input.emptyField{
+    --placeholder-color: var(--ion-color-danger)!important;
+    --placeholder-font-weight: bold!important
+}
+
+ion-radio.emptyField{
+    --color: var(--ion-color-danger)!important
 }
