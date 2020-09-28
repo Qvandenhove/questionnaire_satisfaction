@@ -1,4 +1,5 @@
-import { IonContent, IonItem, IonList, IonMenu, IonMenuButton, IonRouterOutlet } from '@ionic/react';
+import { IonContent, IonIcon, IonItem, IonList, IonMenu, IonMenuButton, IonRouterOutlet } from '@ionic/react';
+import {home, happy, statsChart} from 'ionicons/icons'
 import React, { Fragment } from 'react';
 import './Menu.css';
 
@@ -10,9 +11,9 @@ const Menu: React.FC<ContainerProps> = () => {
       <IonMenu color="dark" side="start" menuId="main" contentId="mainMenu">
         <IonContent>
           <IonList>
-            <IonItem href="#">Entrée 1</IonItem>
-            <IonItem href="#">Entrée 2</IonItem>
-            <IonItem href="#">Entrée 3</IonItem>
+            <IonItem key="1" href="#"><IonIcon icon={home}/>Accueil</IonItem>
+            <IonItem key="2" href="#"><IonIcon icon={statsChart}/>Résultats</IonItem>
+            <IonItem key="3" href="#"><IonIcon icon={happy}/>Questionnaire de satisfaction</IonItem>
           </IonList>
         </IonContent>
       </IonMenu>

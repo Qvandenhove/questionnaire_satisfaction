@@ -3,3 +3,62 @@ ion-title{
     font-family: 'Karla', sans-serif;
     font-weight: bold;
 }
+
+ion-radio-group{
+
+    width: 100%;
+    margin-top: 1rem;
+}
+
+ion-item ion-item.item-textarea, ion-item ion-item.item-textarea ion-textarea{
+    width: 100%;
+}
+
+ion-item ion-item.item-textarea ion-textarea{
+    padding: 0 1% 0 1%;
+    width: 100%;
+    border: white solid .5px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+ion-list ion-item ion-button{
+    margin: auto;
+}
+
+ion-list.questionnaire{
+    overflow: auto;
+    height: 100%;
+}
+
+ion-input{
+    --placeholder-color:#000000!important;
+    --placeholder-font-weight:normal!important
+}
+
+ion-modal ion-button{
+    width: 60px;
+    height: 60px;
+    margin: 0 0 0 90%;
+}
+
+ion-icon.closeModal{
+    font-size: 4rem;
+}
+
+ion-radio-group ion-item ion-label{
+    min-width: 100%!important;
+    max-width: 100%!important;
+}
+
+ion-label.question{
+    font-size: 2rem!important;
+}
+
+ion-label.reponse{
+    font-size: 1.3rem!important;
+}
+
+ion-label.commentaire{
+    font-size: 1.2rem!important;
+}

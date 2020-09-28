@@ -7,7 +7,9 @@ ion-menu-button{
   display: block;
 }
 
-ion-list ion-item, ion-list ion-item.item:hover a{
+ion-list ion-item, ion-list ion-item.item:hover a, ion-menu ion-list{
+  --background: #222222!important;
+  background: #222222!important;
   --color: white!important;
 }
 
