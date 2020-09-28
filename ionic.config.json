@@ -1,0 +1,7 @@
+{
+  "name": "totem_test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
