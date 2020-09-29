@@ -12,8 +12,8 @@ const Menu: React.FC<ContainerProps> = () => {
         <IonContent>
           <IonList>
             <IonItem key="1" href="#"><IonIcon icon={home}/>Accueil</IonItem>
-            <IonItem key="2" href="#"><IonIcon icon={statsChart}/>Résultats</IonItem>
-            <IonItem key="3" href="#"><IonIcon icon={happy}/>Questionnaire de satisfaction</IonItem>
+            <IonItem key="2" href="resultats"><IonIcon icon={statsChart}/>Résultats</IonItem>
+            <IonItem key="3" href="questionnaire"><IonIcon icon={happy}/>Questionnaire de satisfaction</IonItem>
           </IonList>
         </IonContent>
       </IonMenu>
